@@ -1,0 +1,11 @@
+{
+  "name": "ci-cd-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "build": "mkdir -p dist && echo '<h1>CI/CD Demo</h1>' > dist/index.html"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
